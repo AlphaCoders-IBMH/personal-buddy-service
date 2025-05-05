@@ -48,4 +48,4 @@ cd ..
   firebase emulators:start
   ```
 
-Note : Please change the JIRA API KEY while running the application to get the valid responses.
+Note : When API request is made for JIRA request and if the response is with status 400 , Please change the JIRA API KEY to get the valid responses.
