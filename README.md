@@ -26,3 +26,26 @@ firebase --version
   git clone https://github.com/AlphaCoders-IBMH/personal-buddy-service.git
   cd personal-buddy-service
   ```
+
+## Install Project Dependencies
+- Install the dependencies for functions
+```bash
+# Backend (Cloud Functions)
+cd functions
+npm install
+cd ..
+```
+
+## 🔐 Firebase Login
+- Login to your Firebase account to access project emulators:
+  ```bash
+  firebase login
+  ```
+
+## ▶️ Run Locally
+- Start Firebase Emulator Suite
+  ```bash
+  firebase emulators:start
+  ```
+
+Note : Please change the JIRA API KEY while running the application to get the valid responses.
